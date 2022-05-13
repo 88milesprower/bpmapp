@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bpmsrc
+    description: 'eventlog and cases for BPM App'
+    database: nryabykh
+    schema: public
+    tables:
+      - name: eventlog
+        description: 'Event log'
+      - name: cases
+        description: 'Details about cases'
