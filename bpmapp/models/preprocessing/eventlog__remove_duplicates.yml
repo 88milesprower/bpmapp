@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: eventlog__remove_duplicates
+    description: "Remove consecutive duplicate events. Add next event, time of next event, event duration"

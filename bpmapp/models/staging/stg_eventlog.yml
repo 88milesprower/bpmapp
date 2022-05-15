@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: src_eventlog
+    columns:
+      - name: created_at
+        tests:
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('src_cases')
+              field: case_id
+      - name: event_id
+        tests:
+          - not_null

@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: eventlog__remove_10d_30d
+    description: "If case is more than 10 days in 'Waiting for refusal', it moves to 'Bank refusal'. If case if more than 
+    30 days in 'Data Input' then it moves to 'Client refusal' or 'Timeout refusal'. Remove all events of these cases 
+    from eventlog, move them to separate table."
