@@ -1,6 +1,8 @@
 import streamlit as st
 from connector import get_snowflake_connector
 
+st.set_page_config(layout="wide")
+
 
 def run():
     st.header("Business Process Mining")
