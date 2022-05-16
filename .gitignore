@@ -1,2 +1,5 @@
 .idea/
 logs/
+auth.yml
+auth.yaml
+__pycache__

@@ -1,0 +1,8 @@
+snowflake:
+  user: "username"
+  password: "p@$$word"
+  account: "path_to.eu-north-1.aws"
+
+postgres:
+  user: "username"
+  password: "p@$$word"
