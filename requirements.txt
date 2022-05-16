@@ -4,3 +4,5 @@ streamlit~=1.6.0
 streamlit-aggrid~=0.2.3
 apache-airflow[celery] --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-latest/constraints-3.8.txt"
 apache-airflow-client
+pyyaml==6.0.0
+snowflake-connector-python==2.7.7
