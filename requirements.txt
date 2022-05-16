@@ -1,0 +1,6 @@
+dbt-core~=1.1.0
+dbt-postgres~=1.1.0
+streamlit~=1.6.0
+streamlit-aggrid~=0.2.3
+apache-airflow[celery] --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-latest/constraints-3.8.txt"
+apache-airflow-client
